@@ -9,7 +9,7 @@ public:
     virtual bool search(int ) = 0;
     virtual int min() = 0;
     virtual int max() = 0;
-    virtual void inOrder() = 0;
+    virtual void inOrderTraversal() = 0;
     virtual void del(int ) = 0;
 };
 
