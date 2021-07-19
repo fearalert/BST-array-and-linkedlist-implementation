@@ -1,4 +1,4 @@
-#include "linkedBST.h"
+#include "../include/linkedBST.h"
 
 int main()
 {
@@ -16,17 +16,17 @@ int main()
     L.addBST(root, 103);
     std::cout << "Binary Search Tree arranged in inorder traversal:"  << std::endl;
     L.inorder(root);
-    std::cout << "Binary Search Tree arranged in preorder traversal:"  << std::endl;
+    std::cout << std::endl << "Binary Search Tree arranged in preorder traversal:"  << std::endl;
     L.preorder(root);
-    std::cout << "Displays '1' if element is in the tree else displays '0'." << std::endl;
+    std::cout << std::endl << "Displays '1' if element is in the tree else displays '0'." << std::endl;
     std::cout << L.searchBST(root,12) << std::endl;
     std::cout << L.searchBST(root,100) << std::endl;
-    std::cout << "Element removed." << std::endl;
     L.removeBST(root,45);
-    std::cout << "Tree after deleting a node." << std::endl;
+    std::cout << "After Deletion" << std::endl;
+    std::cout << "Binary Search Tree arranged in Inorder traversal:" << std::endl;
     L.inorder(root);
     L.removeBST(root,30);
-    std::cout << "Tree after deleting a node." << std::endl;
+    std::cout << std::endl << "Binary Search Tree arranged in Inorder traversal:" << std::endl;
     L.inorder(root);
     
     
