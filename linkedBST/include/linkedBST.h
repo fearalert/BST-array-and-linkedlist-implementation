@@ -26,12 +26,7 @@ class LinkedBST : public BinarySearchTree
 
       void add(int data){}
       void del(int data){}
-      void preOrderTraversal(){
-         LinkedBST *root;
-         std::cout << "Pre Order Traversal is :" << std::endl;
-         preorder(root);
-         std::cout << std::endl;
-      }
+      void preOrderTraversal(){}
       void inOrderTraversal(){}
       bool search(int data){}
       int max(){}
