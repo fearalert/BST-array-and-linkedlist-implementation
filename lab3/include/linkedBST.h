@@ -4,7 +4,7 @@
 #ifndef LINKEDBST_H
 #define LINKEDBST_H
 
-class LinkedBST : public abstractBST
+class LinkedBST : public BinarySearchTree
 {
     private:
        int data;
@@ -23,11 +23,11 @@ class LinkedBST : public abstractBST
       LinkedBST*  removeBST(LinkedBST* root, int value);
       void add(int data){}
       void deleteitem(int item){}
-      void preordertraversal(){}
-      void inordertraversal(){}
-      void search(int data){}
-      int maximum(){}
-      int minimum(){}
+      void preOrderTraversal(){}
+      void inOrderTraversal(){}
+      bool search(int){}
+      int max(){}
+      int min(){}
 
 
 };
