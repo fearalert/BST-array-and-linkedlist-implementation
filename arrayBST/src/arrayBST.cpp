@@ -7,7 +7,7 @@ arrayBST::arrayBST(){
 }
 
 bool arrayBST::isEmpty(){
-    return this->array[0] == false;
+    return this->array[0] == 0;
 }
 
 //function to add key to a BST
